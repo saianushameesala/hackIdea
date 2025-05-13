@@ -1,0 +1,512 @@
+2025-05-12 21:58:10,188 - llm_connector - WARNING - HuggingFace Transformers package not available. Install with: pip install transformers torch
+2025-05-12 21:58:10,207 - debug - ERROR - Error importing modules: cannot import name 'get_feature_importance' from 'utils.executor' (C:\Users\pavansai\Desktop\Kaggle\LLM Models\ml_explainability_chat_app\utils\executor.py)
+2025-05-12 22:24:23,168 - debug - INFO - Successfully imported all modules
+2025-05-12 22:24:23,168 - debug - INFO - Loading model and data for XGBoost
+2025-05-12 22:24:23,183 - debug - ERROR - Model file not found: c:\Users\pavansai\Desktop\Kaggle\LLM Models\ml_explainability_chat_app\models\xgb_model.pkl
+2025-05-12 22:24:23,183 - debug - INFO - ====== TESTING PARSER ======
+2025-05-12 22:24:23,183 - debug - INFO - Testing parser...
+2025-05-12 22:24:23,183 - parser - INFO - Parsing user input: show me shap values for this model
+2025-05-12 22:24:23,183 - parser - INFO - Detected SHAP request
+2025-05-12 22:24:23,183 - parser - INFO - Parsing user input: explain using lime for sample #5
+2025-05-12 22:24:23,183 - parser - INFO - Detected LIME request
+2025-05-12 22:24:23,183 - parser - INFO - With sample number: 5
+2025-05-12 22:24:23,183 - parser - INFO - Parsing user input: what are the most important features?
+2025-05-12 22:24:23,183 - parser - INFO - Detected feature importance request
+2025-05-12 22:24:23,183 - parser - INFO - Parsing user input: how does this model make predictions?
+2025-05-12 22:24:23,183 - parser - INFO - Detected prediction request
+2025-05-12 22:24:23,183 - parser - INFO - Parsing user input: make a prediction for sample 10
+2025-05-12 22:24:23,183 - parser - INFO - Detected prediction request
+2025-05-12 22:24:23,183 - parser - INFO - Parsing user input: show shap values for patients over 50 years old
+2025-05-12 22:24:23,183 - parser - INFO - Detected SHAP request
+2025-05-12 22:24:23,183 - debug - INFO - Parser testing complete
+2025-05-12 22:24:23,188 - debug - INFO - ====== TESTING LLM CONNECTOR ======
+2025-05-12 22:24:23,188 - debug - INFO - Testing LLM connector...
+2025-05-12 22:24:23,188 - debug - INFO - Testing OpenAI connector...
+2025-05-12 22:24:23,189 - llm_connector - ERROR - No OpenAI API key provided
+2025-05-12 22:24:23,189 - debug - WARNING - Could not initialize OpenAI connector
+2025-05-12 22:24:23,189 - debug - INFO - ====== TESTING EXPLAINERS ======
+2025-05-12 22:24:23,189 - debug - INFO - Testing ML explainer functions...
+2025-05-12 22:24:23,190 - debug - ERROR - Cannot test explainers: model or data is None
+2025-05-12 22:24:23,190 - debug - INFO - ====== TESTING EXECUTOR ======
+2025-05-12 22:24:23,190 - debug - INFO - Testing executor...
+2025-05-12 22:24:23,190 - debug - ERROR - Cannot test executor: missing model, data, or project_info
+2025-05-12 22:24:23,191 - debug - INFO - ====== TESTING LLM EXPLAINER ======
+2025-05-12 22:24:23,191 - debug - INFO - Testing LLM explainer...
+2025-05-12 22:24:23,191 - debug - INFO - Getting available LLM connector...
+2025-05-12 22:24:23,191 - llm_connector - ERROR - No OpenAI API key provided
+2025-05-12 22:24:23,192 - llm_connector - ERROR - No LLM connector available
+2025-05-12 22:24:23,192 - debug - ERROR - No LLM connector available: No working LLM connector available
+2025-05-12 22:24:23,192 - debug - INFO - ====== TESTING VECTOR STORE ======
+2025-05-12 22:24:23,193 - debug - INFO - Testing vector store...
+2025-05-12 22:24:23,193 - debug - INFO - Initializing vector store...
+2025-05-12 22:24:23,212 - debug - INFO - Vector store initialized in 0.02s
+2025-05-12 22:24:23,216 - debug - INFO - Testing query: 'How does Random Forest work?'
+2025-05-12 22:24:23,228 - debug - INFO - Query completed in 0.01s, found 2 documents
+2025-05-12 22:24:23,229 - debug - INFO - Testing query: 'Tell me about the diabetes dataset'
+2025-05-12 22:24:23,232 - debug - INFO - Query completed in 0.00s, found 2 documents
+2025-05-12 22:24:23,233 - debug - INFO - Testing query: 'What are SHAP values?'
+2025-05-12 22:24:23,235 - debug - INFO - Query completed in 0.00s, found 2 documents
+2025-05-12 22:24:23,235 - debug - INFO - Testing query: 'Explain feature importance'
+2025-05-12 22:24:23,237 - debug - INFO - Query completed in 0.00s, found 2 documents
+2025-05-12 22:24:23,240 - debug - INFO - ====== TESTING FULL PIPELINE ======
+2025-05-12 22:24:23,240 - debug - INFO - Running full pipeline test...
+2025-05-12 22:24:23,240 - debug - ERROR - Cannot run pipeline test: missing model, data, or project_info
+2025-05-12 22:24:23,242 - debug - INFO - Saved results to c:\Users\pavansai\Desktop\Kaggle\LLM Models\ml_explainability_chat_app\logs\debug_results.json
+2025-05-12 22:38:25,401 - debug - INFO - Successfully imported all modules
+2025-05-12 22:38:39,585 - debug - INFO - Loading model and data for XGBoost
+2025-05-12 22:38:39,598 - debug - ERROR - Model file not found: C:\Users\pavansai\Desktop\Kaggle\LLM Models\ml_explainability_chat_app\models\xgb_model.pkl
+2025-05-12 22:38:39,598 - debug - INFO - ====== TESTING PARSER ======
+2025-05-12 22:38:39,602 - debug - INFO - Testing parser...
+2025-05-12 22:38:39,603 - parser - INFO - Parsing user input: show me shap values for this model
+2025-05-12 22:38:39,604 - parser - INFO - Detected SHAP request
+2025-05-12 22:38:39,605 - parser - INFO - Parsing user input: explain using lime for sample #5
+2025-05-12 22:38:39,605 - parser - INFO - Detected LIME request
+2025-05-12 22:38:39,608 - parser - INFO - With sample number: 5
+2025-05-12 22:38:39,609 - parser - INFO - Parsing user input: what are the most important features?
+2025-05-12 22:38:39,609 - parser - INFO - Detected feature importance request
+2025-05-12 22:38:39,610 - parser - INFO - Parsing user input: how does this model make predictions?
+2025-05-12 22:38:39,611 - parser - INFO - Detected prediction request
+2025-05-12 22:38:39,612 - parser - INFO - Parsing user input: make a prediction for sample 10
+2025-05-12 22:38:39,612 - parser - INFO - Detected prediction request
+2025-05-12 22:38:39,613 - parser - INFO - Parsing user input: show shap values for patients over 50 years old
+2025-05-12 22:38:39,614 - parser - INFO - Detected SHAP request
+2025-05-12 22:38:39,614 - debug - INFO - Parser testing complete
+2025-05-12 22:38:39,615 - debug - INFO - ====== TESTING LLM CONNECTOR ======
+2025-05-12 22:38:39,618 - debug - INFO - Testing LLM connector...
+2025-05-12 22:38:39,619 - debug - INFO - Testing OpenAI connector with gpt-4.1-nano...
+2025-05-12 22:38:39,620 - llm_connector - ERROR - No OpenAI API key provided
+2025-05-12 22:38:39,621 - debug - WARNING - Could not initialize OpenAI connector
+2025-05-12 22:38:39,622 - debug - INFO - ====== TESTING EXPLAINERS ======
+2025-05-12 22:38:39,623 - debug - INFO - Testing ML explainer functions...
+2025-05-12 22:38:39,623 - debug - ERROR - Cannot test explainers: model or data is None
+2025-05-12 22:38:39,624 - debug - INFO - ====== TESTING EXECUTOR ======
+2025-05-12 22:38:39,625 - debug - INFO - Testing executor...
+2025-05-12 22:38:39,626 - debug - ERROR - Cannot test executor: missing model, data, or project_info
+2025-05-12 22:38:39,626 - debug - INFO - ====== TESTING LLM EXPLAINER ======
+2025-05-12 22:38:39,627 - debug - INFO - Testing LLM explainer...
+2025-05-12 22:38:39,628 - debug - INFO - Getting available LLM connector...
+2025-05-12 22:38:39,629 - llm_connector - ERROR - No OpenAI API key provided
+2025-05-12 22:38:39,629 - debug - INFO - Using LLM connector: OpenAIConnector
+2025-05-12 22:38:39,629 - llm_explainer - ERROR - LLM connector OpenAIConnector is not initialized!
+2025-05-12 22:38:39,629 - debug - INFO - Testing executor...
+2025-05-12 22:38:39,633 - debug - ERROR - Cannot test executor: missing model, data, or project_info
+2025-05-12 22:40:25,703 - debug - INFO - Successfully imported all modules
+2025-05-12 22:40:25,703 - debug - INFO - Loading model and data for XGBoost
+2025-05-12 22:40:25,703 - debug - ERROR - Model file not found: C:\Users\pavansai\Desktop\Kaggle\LLM Models\ml_explainability_chat_app\models\xgb_model.pkl
+2025-05-12 22:40:25,703 - debug - INFO - ====== TESTING PARSER ======
+2025-05-12 22:40:25,703 - debug - INFO - Testing parser...
+2025-05-12 22:40:25,703 - parser - INFO - Parsing user input: show me shap values for this model
+2025-05-12 22:40:25,703 - parser - INFO - Detected SHAP request
+2025-05-12 22:40:25,703 - parser - INFO - Parsing user input: explain using lime for sample #5
+2025-05-12 22:40:25,721 - parser - INFO - Detected LIME request
+2025-05-12 22:40:25,723 - parser - INFO - With sample number: 5
+2025-05-12 22:40:25,724 - parser - INFO - Parsing user input: what are the most important features?
+2025-05-12 22:40:25,725 - parser - INFO - Detected feature importance request
+2025-05-12 22:40:25,726 - parser - INFO - Parsing user input: how does this model make predictions?
+2025-05-12 22:40:25,727 - parser - INFO - Detected prediction request
+2025-05-12 22:40:25,728 - parser - INFO - Parsing user input: make a prediction for sample 10
+2025-05-12 22:40:25,728 - parser - INFO - Detected prediction request
+2025-05-12 22:40:25,731 - parser - INFO - Parsing user input: show shap values for patients over 50 years old
+2025-05-12 22:40:25,731 - parser - INFO - Detected SHAP request
+2025-05-12 22:40:25,732 - debug - INFO - Parser testing complete
+2025-05-12 22:40:25,733 - debug - INFO - ====== TESTING LLM CONNECTOR ======
+2025-05-12 22:40:25,737 - debug - INFO - Testing LLM connector...
+2025-05-12 22:40:25,739 - debug - INFO - Testing OpenAI connector with gpt-4.1-nano...
+2025-05-12 22:40:27,020 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-12 22:40:27,036 - llm_connector - ERROR - Error initializing OpenAI: Error code: 401 - {'error': {'message': 'Incorrect API key provided: ssk-proj*********************************************************************************************************************************************************XiIA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-05-12 22:40:27,038 - debug - WARNING - Could not initialize OpenAI connector
+2025-05-12 22:40:27,039 - debug - INFO - ====== TESTING EXPLAINERS ======
+2025-05-12 22:40:27,040 - debug - INFO - Testing ML explainer functions...
+2025-05-12 22:40:27,041 - debug - ERROR - Cannot test explainers: model or data is None
+2025-05-12 22:40:27,041 - debug - INFO - ====== TESTING EXECUTOR ======
+2025-05-12 22:40:27,042 - debug - INFO - Testing executor...
+2025-05-12 22:40:27,043 - debug - ERROR - Cannot test executor: missing model, data, or project_info
+2025-05-12 22:40:27,043 - debug - INFO - ====== TESTING LLM EXPLAINER ======
+2025-05-12 22:40:27,043 - debug - INFO - Testing LLM explainer...
+2025-05-12 22:40:27,045 - debug - INFO - Getting available LLM connector...
+2025-05-12 22:40:27,156 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-12 22:40:27,157 - llm_connector - ERROR - Error initializing OpenAI: Error code: 401 - {'error': {'message': 'Incorrect API key provided: ssk-proj*********************************************************************************************************************************************************XiIA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-05-12 22:40:27,159 - debug - INFO - Using LLM connector: OpenAIConnector
+2025-05-12 22:40:27,159 - llm_explainer - ERROR - LLM connector OpenAIConnector is not initialized!
+2025-05-12 22:40:27,160 - debug - INFO - Testing executor...
+2025-05-12 22:40:27,160 - debug - ERROR - Cannot test executor: missing model, data, or project_info
+2025-05-12 22:42:22,092 - debug - INFO - Successfully imported all modules
+2025-05-12 22:42:22,092 - debug - INFO - Loading model and data for XGBoost
+2025-05-12 22:42:22,092 - debug - ERROR - Model file not found: c:\Users\pavansai\Desktop\Kaggle\LLM Models\ml_explainability_chat_app\models\xgb_model.pkl
+2025-05-12 22:42:22,092 - debug - INFO - ====== TESTING PARSER ======
+2025-05-12 22:42:22,092 - debug - INFO - Testing parser...
+2025-05-12 22:42:22,092 - parser - INFO - Parsing user input: show me shap values for this model
+2025-05-12 22:42:22,092 - parser - INFO - Detected SHAP request
+2025-05-12 22:42:22,092 - parser - INFO - Parsing user input: explain using lime for sample #5
+2025-05-12 22:42:22,092 - parser - INFO - Detected LIME request
+2025-05-12 22:42:22,092 - parser - INFO - With sample number: 5
+2025-05-12 22:42:22,092 - parser - INFO - Parsing user input: what are the most important features?
+2025-05-12 22:42:22,092 - parser - INFO - Detected feature importance request
+2025-05-12 22:42:22,092 - parser - INFO - Parsing user input: how does this model make predictions?
+2025-05-12 22:42:22,104 - parser - INFO - Detected prediction request
+2025-05-12 22:42:22,104 - parser - INFO - Parsing user input: make a prediction for sample 10
+2025-05-12 22:42:22,105 - parser - INFO - Detected prediction request
+2025-05-12 22:42:22,105 - parser - INFO - Parsing user input: show shap values for patients over 50 years old
+2025-05-12 22:42:22,105 - parser - INFO - Detected SHAP request
+2025-05-12 22:42:22,105 - debug - INFO - Parser testing complete
+2025-05-12 22:42:22,106 - debug - INFO - ====== TESTING LLM CONNECTOR ======
+2025-05-12 22:42:22,106 - debug - INFO - Testing LLM connector...
+2025-05-12 22:42:22,107 - debug - INFO - Testing OpenAI connector with gpt-4.1-nano...
+2025-05-12 22:42:22,808 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-12 22:42:22,808 - llm_connector - ERROR - Error initializing OpenAI: Error code: 401 - {'error': {'message': 'Incorrect API key provided: ssk-proj*********************************************************************************************************************************************************XiIA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-05-12 22:42:22,808 - debug - WARNING - Could not initialize OpenAI connector
+2025-05-12 22:42:22,808 - debug - INFO - ====== TESTING EXPLAINERS ======
+2025-05-12 22:42:22,808 - debug - INFO - Testing ML explainer functions...
+2025-05-12 22:42:22,808 - debug - ERROR - Cannot test explainers: model or data is None
+2025-05-12 22:42:22,808 - debug - INFO - ====== TESTING EXECUTOR ======
+2025-05-12 22:42:22,816 - debug - INFO - Testing executor...
+2025-05-12 22:42:22,816 - debug - ERROR - Cannot test executor: missing model, data, or project_info
+2025-05-12 22:42:22,817 - debug - INFO - ====== TESTING LLM EXPLAINER ======
+2025-05-12 22:42:22,818 - debug - INFO - Testing LLM explainer...
+2025-05-12 22:42:22,818 - debug - INFO - Getting available LLM connector...
+2025-05-12 22:42:22,936 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-12 22:42:22,936 - llm_connector - ERROR - Error initializing OpenAI: Error code: 401 - {'error': {'message': 'Incorrect API key provided: ssk-proj*********************************************************************************************************************************************************XiIA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-05-12 22:42:22,936 - debug - INFO - Using LLM connector: OpenAIConnector
+2025-05-12 22:42:22,936 - llm_explainer - ERROR - LLM connector OpenAIConnector is not initialized!
+2025-05-12 22:42:22,936 - debug - INFO - Testing executor...
+2025-05-12 22:42:22,936 - debug - ERROR - Cannot test executor: missing model, data, or project_info
+2025-05-12 22:42:22,936 - debug - WARNING - Skipping explanation for failed action: success
+2025-05-12 22:42:22,936 - debug - WARNING - Skipping explanation for failed action: error
+2025-05-12 22:42:22,936 - debug - INFO - ====== TESTING VECTOR STORE ======
+2025-05-12 22:42:22,936 - debug - INFO - Testing vector store...
+2025-05-12 22:42:22,945 - debug - INFO - Initializing vector store...
+2025-05-12 22:42:22,951 - debug - INFO - Vector store initialized in 0.01s
+2025-05-12 22:42:22,952 - debug - INFO - Testing query: 'How does Random Forest work?'
+2025-05-12 22:42:22,956 - debug - INFO - Query completed in 0.00s, found 2 documents
+2025-05-12 22:42:22,957 - debug - INFO - Testing query: 'Tell me about the diabetes dataset'
+2025-05-12 22:42:22,959 - debug - INFO - Query completed in 0.00s, found 2 documents
+2025-05-12 22:42:22,960 - debug - INFO - Testing query: 'What are SHAP values?'
+2025-05-12 22:42:22,961 - debug - INFO - Query completed in 0.00s, found 2 documents
+2025-05-12 22:42:22,961 - debug - INFO - Testing query: 'Explain feature importance'
+2025-05-12 22:42:22,963 - debug - INFO - Query completed in 0.00s, found 2 documents
+2025-05-12 22:42:22,963 - debug - INFO - ====== TESTING FULL PIPELINE ======
+2025-05-12 22:42:22,963 - debug - INFO - Running full pipeline test...
+2025-05-12 22:42:22,964 - debug - ERROR - Cannot run pipeline test: missing model, data, or project_info
+2025-05-12 22:42:22,966 - debug - INFO - Saved results to c:\Users\pavansai\Desktop\Kaggle\LLM Models\ml_explainability_chat_app\logs\debug_results.json
+2025-05-12 22:43:46,343 - debug - INFO - Successfully imported all modules
+2025-05-12 22:43:46,343 - debug - INFO - Loading model and data for XGBoost
+2025-05-12 22:43:46,343 - debug - ERROR - Model file not found: c:\Users\pavansai\Desktop\Kaggle\LLM Models\ml_explainability_chat_app\models\xgb_model.pkl
+2025-05-12 22:43:46,343 - debug - INFO - ====== TESTING PARSER ======
+2025-05-12 22:43:46,343 - debug - INFO - Testing parser...
+2025-05-12 22:43:46,343 - parser - INFO - Parsing user input: show me shap values for this model
+2025-05-12 22:43:46,343 - parser - INFO - Detected SHAP request
+2025-05-12 22:43:46,343 - parser - INFO - Parsing user input: explain using lime for sample #5
+2025-05-12 22:43:46,343 - parser - INFO - Detected LIME request
+2025-05-12 22:43:46,343 - parser - INFO - With sample number: 5
+2025-05-12 22:43:46,343 - parser - INFO - Parsing user input: what are the most important features?
+2025-05-12 22:43:46,343 - parser - INFO - Detected feature importance request
+2025-05-12 22:43:46,343 - parser - INFO - Parsing user input: how does this model make predictions?
+2025-05-12 22:43:46,343 - parser - INFO - Detected prediction request
+2025-05-12 22:43:46,343 - parser - INFO - Parsing user input: make a prediction for sample 10
+2025-05-12 22:43:46,359 - parser - INFO - Detected prediction request
+2025-05-12 22:43:46,359 - parser - INFO - Parsing user input: show shap values for patients over 50 years old
+2025-05-12 22:43:46,360 - parser - INFO - Detected SHAP request
+2025-05-12 22:43:46,360 - debug - INFO - Parser testing complete
+2025-05-12 22:43:46,361 - debug - INFO - ====== TESTING LLM CONNECTOR ======
+2025-05-12 22:43:46,361 - debug - INFO - Testing LLM connector...
+2025-05-12 22:43:46,361 - debug - INFO - Testing OpenAI connector with gpt-4.1-nano...
+2025-05-12 22:43:47,062 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-12 22:43:47,062 - llm_connector - ERROR - Error initializing OpenAI: Error code: 401 - {'error': {'message': 'Incorrect API key provided: ssk-proj*********************************************************************************************************************************************************XiIA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-05-12 22:43:47,062 - debug - WARNING - Could not initialize OpenAI connector
+2025-05-12 22:43:47,062 - debug - INFO - ====== TESTING EXPLAINERS ======
+2025-05-12 22:43:47,062 - debug - INFO - Testing ML explainer functions...
+2025-05-12 22:43:47,078 - debug - ERROR - Cannot test explainers: model or data is None
+2025-05-12 22:43:47,081 - debug - INFO - ====== TESTING EXECUTOR ======
+2025-05-12 22:43:47,081 - debug - INFO - Testing executor...
+2025-05-12 22:43:47,082 - debug - ERROR - Cannot test executor: missing model, data, or project_info
+2025-05-12 22:43:47,083 - debug - INFO - ====== TESTING LLM EXPLAINER ======
+2025-05-12 22:43:47,084 - debug - INFO - Testing LLM explainer...
+2025-05-12 22:43:47,084 - debug - INFO - Getting available LLM connector...
+2025-05-12 22:43:47,210 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-12 22:43:47,210 - llm_connector - ERROR - Error initializing OpenAI: Error code: 401 - {'error': {'message': 'Incorrect API key provided: ssk-proj*********************************************************************************************************************************************************XiIA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-05-12 22:43:47,210 - debug - INFO - Using LLM connector: OpenAIConnector
+2025-05-12 22:43:47,210 - llm_explainer - ERROR - LLM connector OpenAIConnector is not initialized!
+2025-05-12 22:43:47,210 - debug - INFO - Testing executor...
+2025-05-12 22:43:47,210 - debug - ERROR - Cannot test executor: missing model, data, or project_info
+2025-05-12 22:43:47,210 - debug - WARNING - Skipping explanation for failed action: success
+2025-05-12 22:43:47,210 - debug - WARNING - Skipping explanation for failed action: error
+2025-05-12 22:43:47,210 - debug - INFO - ====== TESTING VECTOR STORE ======
+2025-05-12 22:43:47,210 - debug - INFO - Testing vector store...
+2025-05-12 22:43:47,210 - debug - INFO - Initializing vector store...
+2025-05-12 22:43:47,220 - debug - INFO - Vector store initialized in 0.01s
+2025-05-12 22:43:47,220 - debug - INFO - Testing query: 'How does Random Forest work?'
+2025-05-12 22:43:47,221 - debug - INFO - Query completed in 0.00s, found 2 documents
+2025-05-12 22:43:47,221 - debug - INFO - Testing query: 'Tell me about the diabetes dataset'
+2025-05-12 22:43:47,226 - debug - INFO - Query completed in 0.00s, found 2 documents
+2025-05-12 22:43:47,227 - debug - INFO - Testing query: 'What are SHAP values?'
+2025-05-12 22:43:47,230 - debug - INFO - Query completed in 0.00s, found 2 documents
+2025-05-12 22:43:47,231 - debug - INFO - Testing query: 'Explain feature importance'
+2025-05-12 22:43:47,233 - debug - INFO - Query completed in 0.00s, found 2 documents
+2025-05-12 22:43:47,233 - debug - INFO - ====== TESTING FULL PIPELINE ======
+2025-05-12 22:43:47,233 - debug - INFO - Running full pipeline test...
+2025-05-12 22:43:47,234 - debug - ERROR - Cannot run pipeline test: missing model, data, or project_info
+2025-05-12 22:43:47,236 - debug - INFO - Saved results to c:\Users\pavansai\Desktop\Kaggle\LLM Models\ml_explainability_chat_app\logs\debug_results.json
+2025-05-12 22:44:34,704 - debug - INFO - Successfully imported all modules
+2025-05-12 22:44:50,787 - debug - INFO - Loading model and data for XGBoost
+2025-05-12 22:44:50,789 - debug - ERROR - Model file not found: C:\Users\pavansai\Desktop\Kaggle\LLM Models\ml_explainability_chat_app\models\xgb_model.pkl
+2025-05-12 22:44:53,402 - debug - INFO - ====== TESTING PARSER ======
+2025-05-12 22:45:08,002 - debug - INFO - Testing parser...
+2025-05-12 22:45:14,151 - parser - INFO - Parsing user input: show me shap values for this model
+2025-05-12 22:45:14,153 - parser - INFO - Detected SHAP request
+2025-05-12 22:45:22,381 - parser - INFO - Parsing user input: explain using lime for sample #5
+2025-05-12 22:45:22,398 - parser - INFO - Detected LIME request
+2025-05-12 22:45:22,398 - parser - INFO - With sample number: 5
+2025-05-12 22:45:47,219 - parser - INFO - Parsing user input: what are the most important features?
+2025-05-12 22:45:47,219 - parser - INFO - Detected feature importance request
+2025-05-12 22:45:47,219 - parser - INFO - Parsing user input: how does this model make predictions?
+2025-05-12 22:45:47,219 - parser - INFO - Detected prediction request
+2025-05-12 22:45:47,219 - parser - INFO - Parsing user input: make a prediction for sample 10
+2025-05-12 22:45:47,219 - parser - INFO - Detected prediction request
+2025-05-12 22:45:47,219 - parser - INFO - Parsing user input: show shap values for patients over 50 years old
+2025-05-12 22:45:47,219 - parser - INFO - Detected SHAP request
+2025-05-12 22:45:49,831 - debug - INFO - Parser testing complete
+2025-05-12 22:46:06,160 - debug - INFO - ====== TESTING LLM CONNECTOR ======
+2025-05-12 22:46:08,492 - debug - INFO - Testing LLM connector...
+2025-05-12 22:46:10,110 - debug - INFO - Testing OpenAI connector with gpt-4.1-nano...
+2025-05-12 22:46:13,349 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-12 22:46:13,365 - llm_connector - ERROR - Error initializing OpenAI: Error code: 401 - {'error': {'message': 'Incorrect API key provided: ssk-proj*********************************************************************************************************************************************************XiIA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-05-12 22:46:17,794 - debug - WARNING - Could not initialize OpenAI connector
+2025-05-12 22:46:41,836 - debug - INFO - ====== TESTING EXPLAINERS ======
+2025-05-12 22:46:44,721 - debug - INFO - Testing ML explainer functions...
+2025-05-12 22:46:47,073 - debug - ERROR - Cannot test explainers: model or data is None
+2025-05-12 22:47:16,371 - debug - INFO - Successfully imported all modules
+2025-05-12 22:47:17,895 - debug - INFO - Loading model and data for XGBoost
+2025-05-12 22:47:17,895 - debug - ERROR - Model file not found: C:\Users\pavansai\Desktop\Kaggle\LLM Models\ml_explainability_chat_app\models\xgb_model.pkl
+2025-05-12 22:47:17,896 - debug - INFO - ====== TESTING PARSER ======
+2025-05-12 22:47:17,896 - debug - INFO - Testing parser...
+2025-05-12 22:47:17,897 - parser - INFO - Parsing user input: show me shap values for this model
+2025-05-12 22:47:17,897 - parser - INFO - Detected SHAP request
+2025-05-12 22:47:17,898 - parser - INFO - Parsing user input: explain using lime for sample #5
+2025-05-12 22:47:17,898 - parser - INFO - Detected LIME request
+2025-05-12 22:47:17,903 - parser - INFO - With sample number: 5
+2025-05-12 22:47:17,904 - parser - INFO - Parsing user input: what are the most important features?
+2025-05-12 22:47:17,905 - parser - INFO - Detected feature importance request
+2025-05-12 22:47:17,905 - parser - INFO - Parsing user input: how does this model make predictions?
+2025-05-12 22:47:17,906 - parser - INFO - Detected prediction request
+2025-05-12 22:47:17,907 - parser - INFO - Parsing user input: make a prediction for sample 10
+2025-05-12 22:47:17,908 - parser - INFO - Detected prediction request
+2025-05-12 22:47:17,909 - parser - INFO - Parsing user input: show shap values for patients over 50 years old
+2025-05-12 22:47:17,911 - parser - INFO - Detected SHAP request
+2025-05-12 22:47:17,911 - debug - INFO - Parser testing complete
+2025-05-12 22:47:19,899 - debug - INFO - ====== TESTING LLM CONNECTOR ======
+2025-05-12 22:47:21,835 - debug - INFO - Testing LLM connector...
+2025-05-12 22:47:23,069 - debug - INFO - Testing OpenAI connector with gpt-4.1-nano...
+2025-05-12 22:47:26,170 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-12 22:47:26,174 - llm_connector - ERROR - Error initializing OpenAI: Error code: 401 - {'error': {'message': 'Incorrect API key provided: ssk-proj*********************************************************************************************************************************************************XiIA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-05-12 22:50:23,391 - debug - INFO - Successfully imported all modules
+2025-05-12 22:50:29,193 - debug - INFO - Loading model and data for XGBoost
+2025-05-12 22:50:29,193 - debug - ERROR - Model file not found: C:\Users\pavansai\Desktop\Kaggle\LLM Models\ml_explainability_chat_app\models\xgb_model.pkl
+2025-05-12 22:50:29,193 - debug - INFO - ====== TESTING PARSER ======
+2025-05-12 22:50:29,193 - debug - INFO - Testing parser...
+2025-05-12 22:50:29,193 - parser - INFO - Parsing user input: show me shap values for this model
+2025-05-12 22:50:29,193 - parser - INFO - Detected SHAP request
+2025-05-12 22:50:29,193 - parser - INFO - Parsing user input: explain using lime for sample #5
+2025-05-12 22:50:29,193 - parser - INFO - Detected LIME request
+2025-05-12 22:50:29,206 - parser - INFO - With sample number: 5
+2025-05-12 22:50:29,208 - parser - INFO - Parsing user input: what are the most important features?
+2025-05-12 22:50:29,209 - parser - INFO - Detected feature importance request
+2025-05-12 22:50:29,209 - parser - INFO - Parsing user input: how does this model make predictions?
+2025-05-12 22:50:29,209 - parser - INFO - Detected prediction request
+2025-05-12 22:50:29,209 - parser - INFO - Parsing user input: make a prediction for sample 10
+2025-05-12 22:50:29,209 - parser - INFO - Detected prediction request
+2025-05-12 22:50:29,209 - parser - INFO - Parsing user input: show shap values for patients over 50 years old
+2025-05-12 22:50:29,209 - parser - INFO - Detected SHAP request
+2025-05-12 22:50:29,209 - debug - INFO - Parser testing complete
+2025-05-12 22:50:31,650 - debug - INFO - ====== TESTING LLM CONNECTOR ======
+2025-05-12 22:50:34,255 - debug - INFO - Testing LLM connector...
+2025-05-12 22:50:35,178 - debug - INFO - Testing OpenAI connector with gpt-4.1-nano...
+2025-05-12 22:51:00,286 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-12 22:51:07,089 - llm_connector - ERROR - Error initializing OpenAI: Error code: 401 - {'error': {'message': 'Incorrect API key provided: ssk-proj*********************************************************************************************************************************************************XiIA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-05-12 22:59:39,920 - debug - INFO - Successfully imported all modules
+2025-05-12 22:59:39,920 - debug - INFO - Loading model and data for XGBoost
+2025-05-12 22:59:39,920 - debug - ERROR - Model file not found: c:\Users\pavansai\Desktop\Kaggle\LLM Models\ml_explainability_chat_app\models\xgb_model.pkl
+2025-05-12 22:59:39,920 - debug - INFO - ====== TESTING PARSER ======
+2025-05-12 22:59:39,920 - debug - INFO - Testing parser...
+2025-05-12 22:59:39,920 - parser - INFO - Parsing user input: show me shap values for this model
+2025-05-12 22:59:39,920 - parser - INFO - Detected SHAP request
+2025-05-12 22:59:39,920 - parser - INFO - Parsing user input: explain using lime for sample #5
+2025-05-12 22:59:39,920 - parser - INFO - Detected LIME request
+2025-05-12 22:59:39,920 - parser - INFO - With sample number: 5
+2025-05-12 22:59:39,920 - parser - INFO - Parsing user input: what are the most important features?
+2025-05-12 22:59:39,920 - parser - INFO - Detected feature importance request
+2025-05-12 22:59:39,920 - parser - INFO - Parsing user input: how does this model make predictions?
+2025-05-12 22:59:39,934 - parser - INFO - Detected prediction request
+2025-05-12 22:59:39,934 - parser - INFO - Parsing user input: make a prediction for sample 10
+2025-05-12 22:59:39,934 - parser - INFO - Detected prediction request
+2025-05-12 22:59:39,934 - parser - INFO - Parsing user input: show shap values for patients over 50 years old
+2025-05-12 22:59:39,935 - parser - INFO - Detected SHAP request
+2025-05-12 22:59:39,935 - debug - INFO - Parser testing complete
+2025-05-12 22:59:39,935 - debug - INFO - ====== TESTING LLM CONNECTOR ======
+2025-05-12 22:59:39,936 - debug - INFO - Testing LLM connector...
+2025-05-12 22:59:39,936 - debug - INFO - Testing OpenAI connector with gpt-4.1-nano...
+2025-05-12 22:59:40,804 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-12 22:59:40,804 - llm_connector - INFO - OpenAI connector initialized with model: gpt-4.1-nano
+2025-05-12 22:59:40,804 - debug - INFO - Successfully initialized OpenAI connector
+2025-05-12 22:59:40,804 - debug - INFO - Testing text generation with OpenAI...
+2025-05-12 22:59:41,697 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-12 22:59:41,697 - debug - INFO - Generated text with OpenAI (length: 659)
+2025-05-12 22:59:41,697 - debug - INFO - OpenAI test completed in 1.76s
+2025-05-12 22:59:41,697 - debug - INFO - ====== TESTING EXPLAINERS ======
+2025-05-12 22:59:41,697 - debug - INFO - Testing ML explainer functions...
+2025-05-12 22:59:41,697 - debug - ERROR - Cannot test explainers: model or data is None
+2025-05-12 22:59:41,697 - debug - INFO - ====== TESTING EXECUTOR ======
+2025-05-12 22:59:41,697 - debug - INFO - Testing executor...
+2025-05-12 22:59:41,697 - debug - ERROR - Cannot test executor: missing model, data, or project_info
+2025-05-12 22:59:41,697 - debug - INFO - ====== TESTING LLM EXPLAINER ======
+2025-05-12 22:59:41,697 - debug - INFO - Testing LLM explainer...
+2025-05-12 22:59:41,697 - debug - INFO - Getting available LLM connector...
+2025-05-12 22:59:42,263 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-12 22:59:42,268 - llm_connector - INFO - OpenAI connector initialized with model: gpt-4.1-nano
+2025-05-12 22:59:42,269 - debug - INFO - Using LLM connector: OpenAIConnector
+2025-05-12 22:59:42,273 - debug - INFO - Testing executor...
+2025-05-12 22:59:42,274 - debug - ERROR - Cannot test executor: missing model, data, or project_info
+2025-05-12 22:59:42,276 - debug - WARNING - Skipping explanation for failed action: success
+2025-05-12 22:59:42,277 - debug - WARNING - Skipping explanation for failed action: error
+2025-05-12 22:59:42,280 - debug - INFO - ====== TESTING VECTOR STORE ======
+2025-05-12 22:59:42,281 - debug - INFO - Testing vector store...
+2025-05-12 22:59:42,287 - debug - INFO - Initializing vector store...
+2025-05-12 22:59:42,295 - debug - INFO - Vector store initialized in 0.01s
+2025-05-12 22:59:42,295 - debug - INFO - Testing query: 'How does Random Forest work?'
+2025-05-12 22:59:42,295 - debug - INFO - Query completed in 0.00s, found 2 documents
+2025-05-12 22:59:42,295 - debug - INFO - Testing query: 'Tell me about the diabetes dataset'
+2025-05-12 22:59:42,303 - debug - INFO - Query completed in 0.01s, found 2 documents
+2025-05-12 22:59:42,304 - debug - INFO - Testing query: 'What are SHAP values?'
+2025-05-12 22:59:42,304 - debug - INFO - Query completed in 0.00s, found 2 documents
+2025-05-12 22:59:42,308 - debug - INFO - Testing query: 'Explain feature importance'
+2025-05-12 22:59:42,309 - debug - INFO - Query completed in 0.00s, found 2 documents
+2025-05-12 22:59:42,310 - debug - INFO - ====== TESTING FULL PIPELINE ======
+2025-05-12 22:59:42,310 - debug - INFO - Running full pipeline test...
+2025-05-12 22:59:42,310 - debug - ERROR - Cannot run pipeline test: missing model, data, or project_info
+2025-05-12 22:59:42,312 - debug - INFO - Saved results to c:\Users\pavansai\Desktop\Kaggle\LLM Models\ml_explainability_chat_app\logs\debug_results.json
+2025-05-12 23:00:14,589 - debug - INFO - Successfully imported all modules
+2025-05-12 23:00:16,255 - debug - INFO - Loading model and data for XGBoost
+2025-05-12 23:00:16,256 - debug - ERROR - Model file not found: C:\Users\pavansai\Desktop\Kaggle\LLM Models\ml_explainability_chat_app\models\xgb_model.pkl
+2025-05-12 23:00:16,256 - debug - INFO - ====== TESTING PARSER ======
+2025-05-12 23:00:16,257 - debug - INFO - Testing parser...
+2025-05-12 23:00:16,258 - parser - INFO - Parsing user input: show me shap values for this model
+2025-05-12 23:00:16,258 - parser - INFO - Detected SHAP request
+2025-05-12 23:00:16,259 - parser - INFO - Parsing user input: explain using lime for sample #5
+2025-05-12 23:00:16,260 - parser - INFO - Detected LIME request
+2025-05-12 23:00:16,263 - parser - INFO - With sample number: 5
+2025-05-12 23:00:16,264 - parser - INFO - Parsing user input: what are the most important features?
+2025-05-12 23:00:16,264 - parser - INFO - Detected feature importance request
+2025-05-12 23:00:16,266 - parser - INFO - Parsing user input: how does this model make predictions?
+2025-05-12 23:00:16,267 - parser - INFO - Detected prediction request
+2025-05-12 23:00:16,268 - parser - INFO - Parsing user input: make a prediction for sample 10
+2025-05-12 23:00:16,268 - parser - INFO - Detected prediction request
+2025-05-12 23:00:16,269 - parser - INFO - Parsing user input: show shap values for patients over 50 years old
+2025-05-12 23:00:16,269 - parser - INFO - Detected SHAP request
+2025-05-12 23:00:16,270 - debug - INFO - Parser testing complete
+2025-05-12 23:00:17,403 - debug - INFO - ====== TESTING LLM CONNECTOR ======
+2025-05-12 23:00:19,586 - debug - INFO - Testing LLM connector...
+2025-05-12 23:00:20,676 - debug - INFO - Testing OpenAI connector with gpt-4.1-nano...
+2025-05-12 23:00:37,699 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-12 23:00:39,622 - llm_connector - INFO - OpenAI connector initialized with model: gpt-4.1-nano
+2025-05-12 23:00:41,604 - debug - INFO - Successfully initialized OpenAI connector
+2025-05-12 23:00:42,565 - debug - INFO - Testing text generation with OpenAI...
+2025-05-12 23:00:57,391 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-12 23:00:58,482 - debug - INFO - Generated text with OpenAI (length: 924)
+2025-05-12 23:01:08,515 - debug - INFO - OpenAI test completed in 46.56s
+2025-05-12 23:01:12,465 - debug - INFO - ====== TESTING EXPLAINERS ======
+2025-05-13 00:06:07,016 - debug - INFO - Selected project: Random Forest from Machine Learning Models
+2025-05-13 00:06:08,244 - debug - INFO - Loading model and data for Random Forest
+2025-05-13 00:06:12,363 - debug - INFO - Initializing vector store...
+2025-05-13 00:06:13,464 - vector_store - INFO - Initializing vector store with project data
+2025-05-13 00:06:13,469 - vector_store - INFO - Loading prompts from C:\Users\pavansai\Desktop\Kaggle\LLM Models\ml_explainability_chat_app\prompts
+2025-05-13 00:06:13,480 - vector_store - INFO - Vector store initialized with 9 documents
+2025-05-13 00:06:28,461 - debug - INFO - Retrieving context docs for query: 'Explain SHAP values for this model'
+2025-05-13 00:06:36,646 - vector_store - INFO - Finding documents similar to query: 'Explain SHAP values for this model...' (top_k=2)
+2025-05-13 00:06:51,513 - debug - INFO - Executing ML actions (SHAP, LIME, Feature Importance, etc.)
+2025-05-13 00:06:56,724 - executor - INFO - Executing action: shap
+2025-05-13 00:06:56,724 - executor - INFO - Executing SHAP explanation
+2025-05-13 00:06:56,724 - executor - INFO - Getting SHAP explanation globally
+2025-05-13 00:06:57,479 - executor - INFO - Action 'shap' execution successful
+2025-05-13 00:07:33,648 - executor - INFO - Executing action: lime:0
+2025-05-13 00:07:33,649 - executor - INFO - LIME requested for specific sample index: 0
+2025-05-13 00:07:33,651 - executor - INFO - Executing LIME explanation for sample 0
+2025-05-13 00:07:33,652 - executor - INFO - Getting LIME explanation for sample 0
+2025-05-13 00:07:33,704 - executor - INFO - Action 'lime' execution successful
+2025-05-13 00:08:24,268 - executor - INFO - Executing action: feature_importance
+2025-05-13 00:08:24,269 - executor - INFO - Executing feature importance analysis
+2025-05-13 00:08:24,270 - executor - INFO - Getting feature importance
+2025-05-13 00:08:24,282 - executor - INFO - Action 'feature_importance' execution successful
+2025-05-13 00:08:26,644 - executor - INFO - Executing action: prediction
+2025-05-13 00:08:26,644 - executor - INFO - Executing prediction
+2025-05-13 00:08:26,644 - executor - INFO - Making prediction
+2025-05-13 00:08:26,673 - executor - INFO - Action 'prediction' execution successful
+2025-05-13 00:08:39,774 - executor - INFO - Executing action: general
+2025-05-13 00:08:39,774 - executor - INFO - Executing general model information
+2025-05-13 00:08:39,774 - executor - INFO - Getting general model information
+2025-05-13 00:08:39,774 - executor - INFO - Action 'general' execution successful
+2025-05-13 00:08:41,998 - debug - INFO - Initializing LLM connector and explainer...
+2025-05-13 00:08:46,344 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 00:08:46,389 - llm_connector - INFO - OpenAI connector initialized with model: gpt-4.1-nano
+2025-05-13 00:08:51,017 - llm_explainer - INFO - Initialized LLM explainer with connector: OpenAIConnector
+2025-05-13 00:08:52,590 - debug - INFO - Generating LLM explanations for each ML result...
+2025-05-13 02:16:45,632 - debug - INFO - Selected project: Random Forest from Machine Learning Models
+2025-05-13 02:16:45,632 - debug - INFO - Loading model and data for Random Forest
+2025-05-13 02:16:45,639 - debug - INFO - Initializing vector store...
+2025-05-13 02:16:45,639 - vector_store - INFO - Initializing vector store with project data
+2025-05-13 02:16:45,639 - vector_store - INFO - Loading prompts from c:\Users\pavansai\Desktop\Kaggle\LLM Models\ml_explainability_chat_app\prompts
+2025-05-13 02:16:45,643 - vector_store - INFO - Vector store initialized with 9 documents
+2025-05-13 02:16:45,643 - debug - INFO - Retrieving context docs for query: 'Explain SHAP values for this model'
+2025-05-13 02:16:45,644 - vector_store - INFO - Finding documents similar to query: 'Explain SHAP values for this model...' (top_k=2)
+2025-05-13 02:16:45,648 - debug - INFO - Executing ML actions (SHAP, LIME, Feature Importance, etc.)
+2025-05-13 02:16:45,648 - executor - INFO - Executing action: shap
+2025-05-13 02:16:45,660 - executor - INFO - Executing SHAP explanation globally
+2025-05-13 02:16:45,660 - executor - INFO - Getting SHAP explanation globally
+2025-05-13 02:16:45,661 - explainers - INFO - Initializing SHAP explainer for model type: RandomForestClassifier
+2025-05-13 02:16:46,069 - executor - INFO - Action 'shap' execution successful
+2025-05-13 02:16:46,069 - executor - INFO - Executing action: lime:0
+2025-05-13 02:16:46,069 - executor - INFO - LIME requested for specific sample index: 0
+2025-05-13 02:16:46,085 - executor - INFO - Executing LIME explanation for sample 0
+2025-05-13 02:16:46,085 - executor - INFO - Getting LIME explanation for sample 0
+2025-05-13 02:16:46,464 - executor - INFO - Action 'lime' execution successful
+2025-05-13 02:16:46,464 - executor - INFO - Executing action: feature_importance
+2025-05-13 02:16:46,477 - executor - INFO - Executing feature importance analysis
+2025-05-13 02:16:46,478 - executor - INFO - Getting feature importance
+2025-05-13 02:16:46,489 - executor - INFO - Action 'feature_importance' execution successful
+2025-05-13 02:16:46,490 - executor - INFO - Executing action: prediction
+2025-05-13 02:16:46,493 - executor - INFO - Executing prediction
+2025-05-13 02:16:46,494 - executor - INFO - Making prediction
+2025-05-13 02:16:46,549 - executor - INFO - Action 'prediction' execution successful
+2025-05-13 02:16:46,617 - executor - INFO - Executing action: general
+2025-05-13 02:16:46,666 - executor - INFO - Executing general model information
+2025-05-13 02:16:46,666 - executor - INFO - Getting general model information
+2025-05-13 02:16:46,681 - executor - INFO - Action 'general' execution successful
+2025-05-13 02:16:46,709 - debug - INFO - Initializing LLM connector and explainer...
+2025-05-13 02:16:47,857 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 02:16:47,857 - llm_connector - INFO - OpenAI connector initialized with model: gpt-4.1-nano
+2025-05-13 02:16:47,857 - llm_explainer - INFO - Initialized LLM explainer with connector: OpenAIConnector
+2025-05-13 02:16:47,857 - debug - INFO - Generating LLM explanations for each ML result...
+2025-05-13 02:16:47,857 - llm_explainer - INFO - Generating explanation for shap results on RandomForestClassifier
+2025-05-13 02:16:47,857 - llm_explainer - INFO - Formatting shap results for LLM
+2025-05-13 02:16:47,870 - llm_explainer - ERROR - Error formatting results for prompt: bad operand type for abs(): 'str'
+2025-05-13 02:16:47,870 - llm_explainer - INFO - Formatted prompt length: 190 chars
+2025-05-13 02:16:47,870 - llm_explainer - INFO - Sending prompt to LLM
+2025-05-13 02:16:49,309 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 02:16:49,309 - llm_explainer - INFO - Generated explanation (length: 1301 chars)
+2025-05-13 02:16:49,309 - llm_explainer - INFO - Stored Q&A pair in vector store.
+2025-05-13 02:16:49,309 - llm_explainer - INFO - Generating explanation for lime results on RandomForestClassifier
+2025-05-13 02:16:49,309 - llm_explainer - INFO - Formatting lime results for LLM
+2025-05-13 02:16:49,327 - llm_explainer - ERROR - Error generating explanation: object of type 'NoneType' has no len()
+2025-05-13 02:16:49,329 - llm_explainer - INFO - Generating explanation for feature_importance results on RandomForestClassifier
+2025-05-13 02:16:49,329 - llm_explainer - INFO - Formatting feature_importance results for LLM
+2025-05-13 02:16:49,338 - llm_explainer - ERROR - Error generating explanation: object of type 'NoneType' has no len()
+2025-05-13 02:16:49,339 - llm_explainer - INFO - Generating explanation for prediction results on RandomForestClassifier
+2025-05-13 02:16:49,339 - llm_explainer - INFO - Formatting prediction results for LLM
+2025-05-13 02:16:49,350 - llm_explainer - ERROR - Error generating explanation: object of type 'NoneType' has no len()
+2025-05-13 02:16:49,351 - llm_explainer - INFO - Generating explanation for general results on RandomForestClassifier
+2025-05-13 02:16:49,352 - llm_explainer - INFO - Formatting general results for LLM
+2025-05-13 02:16:49,356 - llm_explainer - ERROR - Error formatting results for prompt: 'list' object has no attribute 'items'
+2025-05-13 02:16:49,356 - llm_explainer - INFO - Formatted prompt length: 193 chars
+2025-05-13 02:16:49,356 - llm_explainer - INFO - Sending prompt to LLM
+2025-05-13 02:16:50,680 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 02:16:50,680 - llm_explainer - INFO - Generated explanation (length: 1152 chars)
+2025-05-13 02:16:50,680 - llm_explainer - INFO - Stored Q&A pair in vector store.
+2025-05-13 02:16:50,700 - debug - INFO - All core functions tested successfully
